@@ -30,3 +30,23 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+cat > .gitignore << 'EOF'
+# Binaries
+crazyx
+crazyx.exe
+*.exe
+
+# Output directories
+outputs/
+history/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Go files
+go.sum
+EOF
