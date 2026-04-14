@@ -1,0 +1,8 @@
+# Basic scan
+./crazyx -d example.com -v
+
+# With proxy (Burp Suite)
+./crazyx -d example.com --proxy http://127.0.0.1:8080
+
+# Help
+./crazyx -h
