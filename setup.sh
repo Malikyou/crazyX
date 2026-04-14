@@ -1,7 +1,5 @@
 
----
-
-## 📁 FILE 4: `setup.sh` (One-Click Install Script)
+ `setup.sh` (One-Click Install Script)
 
 ```bash
 cat > setup.sh << 'EOF'
